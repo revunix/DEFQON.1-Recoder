@@ -1,0 +1,12 @@
+{
+  "streamsFile": "./streams.json",
+  "outputDir": "./recordings",
+  "reconnectDelay": 5000,
+  "shutdownTimeout": 5000,
+  "ytdlpArgs": [
+    "--no-part",
+    "-x",
+    "--audio-format", "mp3",
+    "--audio-quality", "2"
+  ]
+}

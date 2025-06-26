@@ -1,0 +1,41 @@
+{
+  "name": "defqon1-mixlr-recorder",
+  "version": "1.0.0",
+  "description": "DEFQON.1 Stream Recorder by MIXLR.COM - Records multiple Mixlr streams with a TUI interface",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "bun index.js",
+    "debug": "bun debug.js",
+    "test": "bun test.js",
+    "lint": "eslint src/**.js"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "chokidar": "^4.0.3",
+    "node-fetch": "^2.6.12",
+    "yt-dlp-wrap": "^2.3.12"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  },
+  "engines": {
+    "bun": ">=1.0.0"
+  },
+  "keywords": [
+    "defqon1",
+    "mixlr",
+    "recorder",
+    "stream",
+    "audio"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/defqon1-mixlr-recorder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/defqon1-mixlr-recorder/issues"
+  }
+}
