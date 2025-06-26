@@ -26,8 +26,8 @@ A powerful terminal-based application for recording multiple Mixlr streams simul
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/defqon1-mixlr-recorder.git
-   cd defqon1-mixlr-recorder
+   git clone https://github.com/revunix/DEFQON.1-Recoder.git
+   cd DEFQON.1-Recoder
    ```
 
 2. Install dependencies:
