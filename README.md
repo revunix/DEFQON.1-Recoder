@@ -4,6 +4,8 @@ A powerful terminal-based application for recording multiple Mixlr streams simul
 
 ![Screenshot](screenshot.png)
 
+<a href='https://ko-fi.com/revunix' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee' /></a>
+
 ## ✨ Features
 
 - 🎵 Record multiple Mixlr streams simultaneously
