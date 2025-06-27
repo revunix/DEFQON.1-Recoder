@@ -1,0 +1,16 @@
+{
+  "name": "dq1-recorder",
+  "version": "1.0.0",
+  "description": "Script to record Defqon.1 streams from Mixlr API.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "bun index.js"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.11.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
