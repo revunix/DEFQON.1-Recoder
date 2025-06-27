@@ -1,41 +1,64 @@
 {
-  "name": "defqon1-mixlr-recorder",
-  "version": "1.0.0",
-  "description": "DEFQON.1 Stream Recorder by MIXLR.COM - Records multiple Mixlr streams with a TUI interface",
+  "name": "defqon1-recorder",
+  "version": "2.0.0",
+  "description": "A powerful terminal-based application for recording multiple Mixlr streams simultaneously with a beautiful TUI. Perfect for recording live DJ sets from DEFQON.1 and other Mixlr streams.",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "bun index.js",
-    "debug": "bun debug.js",
-    "test": "bun test.js",
-    "lint": "eslint src/**.js"
-  },
-  "dependencies": {
-    "blessed": "^0.1.81",
-    "chokidar": "^4.0.3",
-    "node-fetch": "^2.6.12",
-    "yt-dlp-wrap": "^2.3.12"
-  },
-  "devDependencies": {
-    "eslint": "^8.56.0"
-  },
-  "engines": {
-    "bun": ">=1.0.0"
+    "dev": "bun --watch index.js",
+    "test": "bun test",
+    "format": "prettier --write .",
+    "lint": "eslint .",
+    "prepare": "husky install"
   },
   "keywords": [
-    "defqon1",
+    "defqon",
     "mixlr",
     "recorder",
     "stream",
-    "audio"
+    "dj",
+    "music",
+    "tui",
+    "terminal"
   ],
-  "author": "",
+  "author": "revunix",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/defqon1-mixlr-recorder.git"
+    "url": "https://github.com/revunix/DEFQON.1-Recoder.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/defqon1-mixlr-recorder/issues"
+    "url": "https://github.com/revunix/DEFQON.1-Recoder/issues"
+  },
+  "homepage": "https://github.com/revunix/DEFQON.1-Recoder#readme",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.11.0",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/blessed": "^0.1.19",
+    "@types/node": "^20.11.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "husky": "^9.0.0",
+    "lint-staged": "^15.2.0",
+    "prettier": "^3.2.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "bun": ">=1.0.0"
+  },
+  "files": [
+    "index.js",
+    "Defqon2025.json"
+  ],
+  "bin": {
+    "defqon-recorder": "./index.js"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
